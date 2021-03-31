@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAA;EACnB,gBAAgB,EAAE,6BAA6B,CAAA,SAAS;EACxD,eAAe,EAAE,OAAO;CACzB",
+    "sources": [
+        "../sass/blocks_all/great-coffee.scss"
+    ],
+    "names": [],
+    "file": "great-coffee.css"
+}

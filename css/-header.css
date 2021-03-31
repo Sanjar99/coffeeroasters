@@ -1,0 +1,18 @@
+.coffee-header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.coffee-header__logo {
+  background: #333D4B;
+  width: 203px;
+  height: 24px;
+}
+
+.coffee-header__logo::before {
+  content: '';
+  background: url(./../../img/);
+}
+/*# sourceMappingURL=-header.css.map */

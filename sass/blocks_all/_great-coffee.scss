@@ -1,0 +1,55 @@
+.coffee__great-coffee{
+  margin-top: 49px;
+  background: url("./../../img/Bitmap.png")no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+  width: 1280px;
+}
+.main__snippet {
+  margin: 0;
+  padding: 0;
+  padding-top: 31px;
+  
+}
+.great-coffee__title{
+  width: 493px;
+  margin: 128.27px 754px 32px 10px;
+  height: 145px;  
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  display: block;
+}
+.great-coffee__text{
+  margin-left: 10px;
+  width: 445px;
+  height: 78px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 56px;
+}
+.main__link{
+  margin-left: 10px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  padding: 15px 31px 16px;
+  background: #0E8784;
+  border-radius: 6px;
+}
+.main__link:last-child{
+  margin-left: 0px;
+}

@@ -1,0 +1,56 @@
+.coffee__footer {
+  background-color: #2C343E;
+}
+
+.coffee__footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 120px;
+  text-align: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coffee-footer__logo {
+  margin-left: 85px;
+}
+
+.offee-footer__nav {
+  margin-left: 300px;
+}
+
+.coffee-footer__nav__list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-left: 300px;
+}
+
+.coffee-footer__nav__item {
+  margin-right: 32px;
+}
+
+.coffee-footer__nav__item:last-child {
+  margin-right: 0px;
+}
+
+.coffee-footer__nav__link {
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888F;
+}
+
+.coffee-footer__logo-feecbook {
+  margin-left: auto;
+}
+/*# sourceMappingURL=footer.css.map */
