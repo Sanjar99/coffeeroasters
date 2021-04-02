@@ -8,24 +8,10 @@ body{
   padding:0;
   font-family: "Barlow";
   background: #F2F2F2;
+  width: 100%;
 }
-.container{
-  max-width: 1320px;
-  padding: 0px 20px;
-  margin: 0px auto;
-}
-.visually-hidden {
-  clip: rect(0 0 0 0); 
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap; 
-  width: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-}
+
+
 a{
   text-decoration: none;
 }

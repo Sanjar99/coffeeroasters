@@ -8,14 +8,14 @@
   width: 203px;
   height: 24px;
   color: #333D4B;
-
+  margin-right: auto;
 }
 .nav__list{
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-left: 788.9px;
+
 }
 .nav__item{
   margin-right: 32px;
@@ -28,8 +28,8 @@
   font-size: 12px;
   line-height: 15px;
   color: #83888F;
-  
 }
 .nav__item:last-child{
   margin-right: 0px;
 }
+  

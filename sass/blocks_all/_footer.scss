@@ -1,28 +1,28 @@
-.coffee__footer{
+.footer{
   background-color: #2C343E;
 }
-.coffee__footer__container{
+.footer__container{
   display: flex;  
   margin-top: 120px;
   padding: 47px 0px;
 }
-.coffee-footer__logo{
-  margin-left: 85px;
-}
-.coffee-footer__nav__list{
+// .footer__logo{
+//   margin-left: 85px;
+// }
+.footer__nav__list{
   margin: 0;
   padding: 0;
   display: flex;
   list-style: none;
   margin-left: 190px;
 }
-.coffee-footer__nav__item{
+.footer__nav__item{
   margin-right: 32px;
 }
-.coffee-footer__nav__item:last-child{
+.footer__nav__item:last-child{
   margin-right: 0px;
 }
-.coffee-footer__nav__link{
+.footer__nav__link{
   font-family: "Barlow";
   font-style: normal;
   font-weight: bold;
@@ -32,15 +32,59 @@
   text-transform: uppercase;
   color: #83888F;
 }
-.coffee-footer__logo{
+.footer__social{
+  margin-left: auto;
+  display: flex;
+}
+.footer__link{
   margin-right: -66px;
 }
-.coffee-footer__logo:last-child{
+.footer__link:last-child{
   margin-right: 0px;
 }
 
-.coffee-footer__logo--feecbook{
-  margin-left: 344px;
+
+@media screen and (max-width: 1280px){
+  .footer__container{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;  
+    margin-top: 120px;
+    padding: 47px 0px;
+    align-items: center;
+  }
+  .footer__logotip{
+    width: 203px;
+  }
+  .footer__nav__list{
+    margin: 32px auto;
+    width: 283px;
+  }
+  .footer__social{
+    margin: 0px auto;
+    margin-top: 33px;
+  }
+  .footer__nav__item{
+    margin-right: 30px;
+  }
+    
+  
+}
+
+
+
+
+@media screen and (max-width: 659px){
+  .footer__nav__list{
+    display: block;
+    text-align: center;
+    margin: 32px auto;
+    width: 130px;
+  }
+  .footer__nav__item{
+    margin: 24px auto;
+  }
+  
 }
   
  
