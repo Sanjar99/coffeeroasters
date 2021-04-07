@@ -1,3 +1,6 @@
+.main{
+  position: relative;
+}
 .intro{
   margin: 0 auto;
   padding: 0;
@@ -7,12 +10,11 @@
   background-position: center center;
   background-size: cover;
   height: 600px;
-  max-width: 1280px;
+  width: 1280px;
 }
 .intro__title{
-  width: 493px;
-  margin: 128.27px 754px 32px 10px;
-  height: 145px;  
+  width: 575px;
+  margin: 55.27px 754px 32px 0px;
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -20,11 +22,10 @@
   line-height: 72px;
   color: #FEFCF7;
   display: block;
+  padding-left: 85px;
 }
 .intro__text{
-  margin-left: 10px;
-  width: 445px;
-  height: 78px;
+  width: 476px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -33,29 +34,61 @@
   mix-blend-mode: normal;
   opacity: 0.8;
   margin-bottom: 56px;
+  padding-left: 85px;
 }
-
-
 @media screen and (max-width:1280px){
+  .intro{
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 31px;
+    margin-top: 49px;
+    background: url("./../../img/Bitmap-tablet.jpg")no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-left: 0px;
+    width: 689px;
+
+  }
   .intro__title{
+    padding-left: 60px;
   font-size: 48px;
   line-height: 48px;
   }
   .intro__text{
+    padding-left: 60px;
   font-size: 15px;
   line-height: 25px;
   }
 }
 @media screen and (max-width:659px){
+  .intro{
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 31px;
+    margin-top: 49px;
+    background: url("./../../img/Bitmap-phoone.jpg")no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 500px;
+    width: 327px;
+  }
   .intro__title{
-    
+    padding-left: 0px;
+    display: block;
+    margin: 0px auto;
+    width: 279px;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
   }
   .intro__text{
+    padding-left: 0px;
+    display: block;
+    margin: 30px auto;
+    width: 279px;
     font-size: 15px;
     line-height: 25px;
     text-align: center;
+    margin-bottom: 56px;
   }
 }

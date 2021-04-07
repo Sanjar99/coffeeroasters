@@ -8,23 +8,28 @@
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <header class="coffee__header">
+  <header class="header">
     <h1 class="visually-hidden">coffeeroasters</h1>
-    <div class="container coffee-header__container">
+    <div class="container header__container">
       <img src="./img/coffee.svg" alt="coffeeroasters" class="coffee-header__logo">
-      <nav class="coffee-header__nav">
+      <button class="hamburger" type="button">
+        <span class="hamburger__inner"></span>
+      </button>
+      <nav class="header__nav nav">
 
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#" class="nav__link">HOME</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">ABOUT US</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Create your plan</a>
-          </li>
-        </ul>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">HOME</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">ABOUT US</a>
+            </li>
+            <li class="nav__item">
+              
+              <a href="#" class="nav__link">Create your plan</a>
+              
+            </li>
+          </ul>
       </nav>
     </div>
   </header>
@@ -36,13 +41,16 @@
         <p class="intro__text">
           Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.
         </p>
-        <a href="#" class="main-link">
-          Create your plan
-        </a>
+        <div class="wrapper">
+          <a href="#" class="main-link">
+            Create your plan
+          </a>
+
+        </div>
     
 
     </div>
-    <section class="coffee__products">
+    <section class="products">
       <h2 class="visually-hidden">our collection</h2>
       <div class="products__container">
         <h3 class="products__subject">our collection</h3>
@@ -79,19 +87,15 @@
       </div>
     </section>
   <section class="benefits">
-      <h2 class="visually-hidden">Why choose us?</h2>
       <div class="container benefits__container">
-
-        <p class="benefits__subject">
+        <h2 class="benefits__subject">
           Why choose us?
-        </p>
+        </h2>
         <p class="benefits__text">
           A large part of our role is choosing which particular coffees will be featured 
           in our range. This means working closely with the best coffee growers to give 
           ou a more impactful experience on every level.
-        </p>
-        
-        
+        </p>        
         <ul class="benefits__list">
           <li class="benefits__item benefits__item--quality">
             <a href="#" class="benefits__link">
@@ -123,14 +127,10 @@
               </p>
             </a>
           </li>
-        </ul>
-          
-
-      
+        </ul>   
     </div>
     </section>
     <section class="work">
-
       <div class="work__container">
         <h3 class="work__subject">How it works</h3>
         <div class="work__content">
@@ -164,9 +164,12 @@
           </p>
         </li>
       </ul>
-      <a href="#" class="main-link">
-        Create your plan
-      </a>
+      <div class="wrapper">
+
+        <a href="#" class="main-link">
+          Create your plan
+        </a>
+      </div>
     </div>
   </section>
   </main>
@@ -187,19 +190,25 @@
           </li>
         </ul>
       </nav>
-      <div class="footer__social">
-        <a href="#" class="footer__link"><img class="footer__logo" src="./img/feecbook.svg" alt="feecbook">
-        </a>
-        <a href="#" class="footer__link"><img class="footer__logo" src="./img/twinch.svg" alt="twinch">
-        </a>
-        <a href="#" class="footer__link"><img class="footer__logo" src="./img/Shape.svg" alt="instagram">
-        </a>
-        
-        
-        
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a href="#" class="footer__link"><img class="footer__logo" src="./img/feecbook.svg" alt="feecbook">
+          </a>
 
-      </div>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link"><img class="footer__logo" src="./img/twinch.svg" alt="twinch">
+          </a>
+
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link"><img class="footer__logo" src="./img/Shape.svg" alt="instagram">
+          </a>
+
+        </li>
+      </ul>
     </div>
   </footer>
+  <script src="./js/main.js"></script>
 </body>
 </html>

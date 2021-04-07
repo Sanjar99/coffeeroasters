@@ -1,5 +1,4 @@
 .main-link{
-  margin-left: 10px;
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -11,10 +10,25 @@
   background: #0E8784;
   border-radius: 6px;
 }
-.main-link:last-child{
+.wrapper{
+  
+  margin-left: 85px;
+
+}
+.wrapper:nth-child(2n){
   margin-left: 0px;
 }
-@media screen and (max-width:659px){
+@media screen and (max-width:1280px){
+  .wrapper{
 
+    margin-left: 55px;
+  }
+}
+@media screen and (max-width:659px){
+.wrapper{
+  margin-left: 0px;
+  margin: 0px auto;
+  text-align: center;
+}
 
 }

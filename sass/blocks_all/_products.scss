@@ -97,6 +97,14 @@ margin-top: 196.86px;
   }
 }
 @media screen and (max-width: 689px) {
+  .products{
+    margin: 0px auto;
+    
+
+  }
+  .products__container{
+
+  }
   .products__list{
     width: 100%;
     margin-left: 47px;
@@ -112,13 +120,18 @@ margin-top: 196.86px;
     display: block;
     max-width: 573px;
     margin: 0px auto;
-   }
+   
    .products__content{
      max-width: 282px;
+     margin: 0px auto;
+     text-align: center;
    }
   .products__item {
     display: block;
     margin-right: 0px;
+    text-align: center;
+  }
+    
   }
   .products__item:last-child{
     display: block;
